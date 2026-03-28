@@ -60,7 +60,7 @@
 # mkdir -p ~/aio-recovery/snapshots
 # 
 # cat <<EOF > ~/aio-recovery/recover.sh
-#!/bin/bash
+# !/bin/bash
 # echo "🔁 Restoring system snapshot..."
 # rsync -a --delete ~/aio-backup/ /
 # EOF
@@ -109,7 +109,7 @@
 # sudo apt update && sudo apt upgrade -y
 # 
 # sudo apt install -y \
-  git curl wget htop neovim python3 python3-pip \
+  - git curl wget htop neovim python3 python3-pip \
   nodejs npm ffmpeg
 # 
 # echo "✅ Ubuntu environment ready"
