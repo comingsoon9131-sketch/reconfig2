@@ -40,7 +40,7 @@
 # ./gsdk/install.sh
 # ./shaders/install.sh
 # ./firebase/install.sh
-#./ai-core/install.sh
+# ./ai-core/install.sh
 # ./integrator/install.sh
 # ./reconfigurator/run.sh
 #
